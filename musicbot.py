@@ -12,8 +12,8 @@ import time
 # BOT SETTINGS #
 bot_file_name = "musicbot"
 bot_class_name = "xenoichi"
-room_id = "65c56b54ac42f2f98821e501"
-bot_token = "5befe10e60c41182eb4718c03093445e3d92fe674d1a107a2f21b4b478d5557d"
+room_id = ""
+bot_token = ""
 
 if __name__ == "__main__":
     definitions = [
@@ -224,11 +224,11 @@ class xenoichi(BaseBot):
 
     def _stream_to__thread(self, mp3_file_path):
         try:
-            icecast_server = "live.radioking.com"
+            icecast_server = ""
             icecast_port = 80
-            mount_point = "/myradio01"
-            username = "Jack_Cole"
-            password = "021xenogamerzx992"
+            mount_point = ""
+            username = ""
+            password = ""
             icecast_url = f"icecast://{username}:{password}@{icecast_server}:{icecast_port}{mount_point}"
 
            
